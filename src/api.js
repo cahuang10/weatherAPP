@@ -10,7 +10,7 @@ export const API_URL = "https://wft-geo-db.p.rapidapi.com/v1/geo";
 
 export const config = {
   headers: {
-    Authorization: "xXK2DSb9RnXUMcSEP1NOUPyD3qlqUcGOZCE8ucR8zMQPmfvB2ug0GY1x"
+    Authorization: ""//get a key from the pixel api
   }
 };
 export const Image_API = "https://api.pexels.com/v1/search?query=";
