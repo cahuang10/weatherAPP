@@ -1,0 +1,90 @@
+.body {
+  font-family: "Roboto", sans-serif;
+}
+.App {
+  width: 1000px;
+  margin: 0 auto;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.edge-temp-detailts,
+.details {
+  position: relative; /* Add relative positioning */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 10px 6px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.temp-details {
+  position: relative; /* Add relative positioning to .temp-details */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  flex: 1 1; /* Take up equal available space */
+  padding: 10px;
+  border: 1px solid #ccc;
+  color: rgba(255, 255, 255, 0.884);
+  text-shadow: 2px 2px 3px rgba(5, 1, 1, 0.5);
+  /* Set text color for better contrast with the background */
+}
+/* Styles for the location and temperature */
+.container .city {
+  font-size: 20px;
+  font-weight: bold;
+
+  flex: 1 1;
+}
+.temp {
+  display: inline-block;
+  margin-bottom: 10px;
+
+  flex: 1 1;
+}
+.number {
+  font-size: 80px; /* Font size for the temperature number */
+}
+
+.celsius {
+  font-size: 30px; /* Font size for the Celsius sign */
+  vertical-align: top; /* Adjust the vertical alignment of the Celsius sign */
+  /* You can also use other positioning techniques if needed */
+}
+
+.emoji {
+  margin: -6px 1px;
+}
+
+.details {
+  max-width: 700px;
+  margin: 0px auto;
+}
+.details p {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 1000px;
+  font-size: 20px;
+  border: 1px solid blue;
+}
+.details span {
+  opacity: 80%;
+}
+.button {
+  background-color: grey;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px; /* Add padding to the button */
+  font-size: 16px; /* Set the font size for the button text */
+  cursor: pointer;
+  margin: 8px auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+  transition: background-color 0.3s ease-in-out; /* Add transition for smooth hover effect */
+
+  /* Apply a hover effect to make the button slightly darker when hovered */
+}
+.button:hover {
+  background-color: #444;
+}
